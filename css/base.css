@@ -1,0 +1,138 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Alice', serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+	margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+p {
+	font-size: .95em;
+}
+h2,
+h3,
+a {
+	color: #3a3a3a;
+}
+h2,
+h3 {
+	margin-top: 0;
+	text-align: center;
+}
+h2 {
+	text-decoration: underline;
+}
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+ol {
+	list-style: circle;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 1.35em;
+	margin: 0;
+}
+.main-nav {
+	margin-top: 5px;
+}
+.name a,
+.main-nav a {
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+}
+.main-nav a {
+	font-size: .95em;
+	color: #3a3a3a;
+	text-transform: uppercase;
+}
+.main-nav a:hover {
+	color: #800080;
+}
+
+/* ---- Layout Containers ---- */
+
+.main-header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+.banner,
+.main-footer {
+	text-align: center;
+}
+.banner {
+	color: #fff;
+	background: #CD96CD;
+	padding: 1.8em;
+	margin-bottom: 32px;
+}
+.banner h1{
+	font-family: 'Alice', serif;
+	color: #3a3a3a;
+}
+.col {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+.main-footer {
+	background: #CD96CD;
+	padding: 2em 0;
+	margin-top: 30px;
+}
+
+/* ---- Page Elements ---- */
+
+.logo {
+	width: 600px;
+}
+.headline {
+	margin-bottom: 0;
+	text-align: center;
+}
+.center {
+	text-align: center;
+	padding: 1.8em;
+}
+.feat-img {
+	border-radius: 5px;
+}
+.contact-image {
+	width: 300px;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+	.main-header,
+	.row,
+  	.footer-inner {
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	.tagline {
+		font-size: 1.4em;
+	}
+}
